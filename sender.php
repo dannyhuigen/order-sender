@@ -134,7 +134,7 @@ function getAllOrders(){
         'posts_per_page' => 999
     );
     $my_query2 = new WP_Query($args2);
-    $orders2 = $my_query->posts;
+    $orders2 = $my_query2->posts;
 
 
 
